@@ -1,0 +1,44 @@
+# Compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs and Editors
+.idea/
+.vscode/
+.project
+.settings/
+.metadata/
+*.sublime-workspace
+
+# Android Studio/Gradle
+.gradle/
+.captures/
+.cxx/
+.externalNativeBuild/
+local.properties
+
+# Build directories
+/build/
+/bin/
+/gen/
+/out/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Vim
+*~
+*.swp
