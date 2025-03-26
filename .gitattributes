@@ -1,0 +1,25 @@
+# Handles line endings automatically for text files
+* text=auto
+
+# generalizes line endings for Kotlin files
+*.kt text eol=lf
+
+# generalize line endings for Gradle wrapper scripts
+gradlew text eol=lf
+gradlew.bat text eol=crlf
+
+# Marks common binary files to prevent changes to them
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.zip binary
+*.jar binary
+
+# Ignores OS-specific files
+.DS_Store binary
+Thumbs.db binary
+
+# Excludes these files from exports when sharing the project
+.gitattributes export-ignore
+.gitignore export-ignore
